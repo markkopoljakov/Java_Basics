@@ -2,11 +2,96 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Arrays;
 public class Main {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
-        
+
+//Yl 105
+//       GuessingGame game = new GuessingGame();
+//       game.play(1,10);
+//       Yl 101
+//
+//       Library Library = new Library();
+//
+//       Library.addBook(new Book("Cheese Problems Solved", "Woodhead Publishing", 2007));
+//       Library.addBook(new Book("The Stinky Cheese Man and Other Fairly Stupid Tales", "Penguin Group", 1992));
+//       Library.addBook(new Book("NHL Hockey", "Stanley Kupp", 1952));
+//       Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
+//
+//       for (Book book: Library.searchByTitle("STINKY")) {
+//           System.out.println(book);
+//       }
+//
+//       System.out.println("---");
+//       for (Book book: Library.searchByPublisher("PENGUIN  ")) {
+//           System.out.println(book);
+//       }
+//Yl 100
+//
+//        NightSky NightSky = new NightSky(8, 4);
+//        NightSky.print();
+//        System.out.println("Number of stars: " + NightSky.starsInLastPrint());
+//        System.out.println("");
+//
+//        NightSky.print();
+//        System.out.println("Number of stars: " + NightSky.starsInLastPrint());
+
+//        Yl 98
+//        int[] original = {1, 2, 3, 4};
+//        int[] copied = copy(original);
+//
+//        copied[0] = 99;
+//
+//        // printing both
+//        System.out.println("original: " + Arrays.toString(original));
+//        System.out.println("copied: " + Arrays.toString(copied));
+//
+//        System.out.println("");
+//
+//        int[] reversed = reverseCopy(original);
+//
+//        // printing both
+//        System.out.println("original: " + Arrays.toString(original));
+//        System.out.println("reversed: " + Arrays.toString(reversed));
+//    }
+//
+//    public static int[] copy(int[] array) {
+//        int[] copy = new int[array.length];
+//
+//        for (int i = 0; i < copy.length; i++) {
+//            copy[i] = array[i];
+//        }
+//
+//        return copy;
+//    }
+//
+//    public static int[] reverseCopy(int[] array) {
+//        int[] reversed = new int[array.length];
+//
+//        for (int i = 0; i < reversed.length; i++) {
+//            reversed[i] = array[array.length - 1 - i];
+//        }
+//
+//        return reversed;
+//    }
+//
+
+//Yl 97
+//        int[] array = {5, 1, 3, 4, 2};
+//        printElegantly(array);
+//    }
+//
+//    public static void printElegantly(int[] array) {
+//        // Write code here
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.print(array[i]);
+//            if (i < (array.length - 1)) {
+//                System.out.print(", ");
+//            }
+//        }
+//        System.out.println();
 //Yl 93
 //        Person jaanus = new Person("Jaanus", new MyDate( 14, 4, 1999));
 //        Person marttin = new Person("Marttin");
@@ -261,8 +346,8 @@ public class Main {
 //    System.out.print("Type in your text: ");
 //    String text = reader.nextLine();
 //    System.out.println("In reverse order: " + yl56(text));
-    }
 
+   }
     public static void yl1() {
         String name = "Markko Poljakov";
         System.out.println(name);
