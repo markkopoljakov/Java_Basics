@@ -40,9 +40,6 @@ public class GuessingGame {
         System.out.println("");
     }
     public static int howManyQuestionsAvailable(int number) {
-        // we create a base two logarithm  of the given value
-
-        // Below we swap the base number to base two logarithms!
         return (int) (Math.log(number) / Math.log(2)) + 1;
     }
 

@@ -1,12 +1,25 @@
-import java.util.Scanner;
-import java.util.Random;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Arrays;
+import java.util.*;
+
 public class Main {
 
    public static void main(String[] args) {
+//       Yl Week 7
+//       Scanner reader = new Scanner(System.in);
+//       String input = reader.nextLine();
+//
+//       Dictionary dict = new Dictionary();
+//
+//       TextUserInterface ui = new TextUserInterface(reader, dict);
+//       ui.start();
 
+//       W7_Yl 5
+//       HashMap<String, String> nicknames = new HashMap<String, String>();
+//       nicknames.put("Markus", "Maku");
+//       nicknames.put("Joosep", "Jossu");
+//       nicknames.put("Martin", "Matu");
+//
+//       String setNick = nicknames.get("Markus");
+//       System.out.println(setNick);
 
 //Yl 105
 //       GuessingGame game = new GuessingGame();
