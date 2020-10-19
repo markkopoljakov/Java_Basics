@@ -3,6 +3,104 @@ import java.util.*;
 public class Main {
 
    public static void main(String[] args) {
+//       Week 8 Yl15
+//       Card first = new Card(2, Card.DIAMONDS);
+//       Card second = new Card(14, Card.CLUBS);
+//       Card third = new Card(12, Card.HEARTS);
+//
+//       System.out.println(first);
+//       System.out.println(second);
+//       System.out.println(third);
+//Week 8 Yl 12
+//       Storehouse store = new Storehouse();
+//       store.addProduct("coffee", 5, 1);
+//       store.addProduct("milk", 3, 20);
+//       store.addProduct("milkbutter", 2, 55);
+//       store.addProduct("bread", 7, 8);
+//
+//
+//       System.out.println("prices:");
+//       System.out.println("coffee:  " + store.taken("coffee"));
+//       System.out.println("coffee:  " + store.taken("coffee"));
+//       System.out.println("coffee:  " + store.taken("coffee"));
+//       System.out.println("coffee: " + store.stock("coffee"));
+//       System.out.println("Apple: " + store.price("Apple"));
+//
+//       System.out.println("Products");
+//       for (String product : store.products()){
+//           System.out.println(product);
+//       }
+//
+//       Purchase buy = new Purchase("Milk", 2, 3);
+//       System.out.println( "the total price of a purchase containing four milks is " + buy.price() );
+//       System.out.println( buy );
+//       buy.increaseAmount();
+//       System.out.println( buy );
+
+//       ShoppingBasket basket = new ShoppingBasket();
+//       basket.add("milk", 3);
+//       basket.print();
+//       System.out.println("basket price: " + basket.price() +"\n");
+//
+//       basket.add("buttermilk", 2);
+//       basket.print();
+//       System.out.println("basket price: " + basket.price() +"\n");
+//
+//       basket.add("milk", 3);
+//       basket.print();
+//       System.out.println("basket price: " + basket.price() +"\n");
+//
+//       basket.add("milk", 3);
+//       basket.print();
+//       System.out.println("basket price: " + basket.price() +"\n");
+//
+//       Storehouse store = new Storehouse();
+//       store.addProduct("coffee", 5, 10);
+//       store.addProduct("milk", 3, 20);
+//       store.addProduct("milkbutter", 2, 55);
+//       store.addProduct("bread", 7, 8);
+//
+//       Shop shop = new Shop(store, new Scanner(System.in));
+//       shop.manage("Pekka");
+
+//       Week 8 Yl11
+//       Box box = new Box(10);
+//       box.add( new Books("Jaanus", "Jussike", 2) ) ;
+//       box.add( new Books("Mart", "Kood", 1) );
+//       box.add( new Books("Mark", "Punamütsike", 0.5) );
+//       box.add( new CD("Terminaator", "Kuutõbine", 1973) );
+//       box.add( new CD("Smilers", "Mojito", 1973) );
+//       System.out.println( box );
+//Week 8 Yl 10
+//       MilitaryService civil = new MilitaryService(20);
+//       System.out.println(civil.getDaysLeft());
+
+//Week 8 Yl 9
+//           RegistrationPlate reg1 = new RegistrationPlate("FI", "ABC-123");
+//           RegistrationPlate reg2 = new RegistrationPlate("FI", "UXE-465");
+//           RegistrationPlate reg3 = new RegistrationPlate("D", "B WQ-431");
+//
+//           List<RegistrationPlate> finnish = new ArrayList<RegistrationPlate>();
+//           finnish.add(reg1);
+//           finnish.add(reg2);
+//
+//           RegistrationPlate newPlate = new RegistrationPlate("FI", "ABC-123");
+//
+//           if (!finnish.contains(newPlate)) {
+//               finnish.add(newPlate);
+//           }
+//
+//           System.out.println("Finnish: " + finnish);
+//
+//           Map<RegistrationPlate, String> owners = new HashMap<RegistrationPlate, String>();
+//           owners.put(reg1, "Jaanus");
+//           owners.put(reg3, "Mart");
+//
+//           System.out.println("owners:");
+//           System.out.println(owners.get(new RegistrationPlate("FI", "ABC-123")));
+//           System.out.println(owners.get(new RegistrationPlate("D", "B WQ-431")));
+//
+
 //       Yl Week 7
 //       Scanner reader = new Scanner(System.in);
 //       String input = reader.nextLine();
