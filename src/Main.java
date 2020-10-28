@@ -1,8 +1,65 @@
 import java.util.*;
 
+import Application.AverageSensor;
+import Application.ConstantSensor;
+import Application.Sensor;
+import Application.Thermometer;
+import moving.domain.Box;
+import moving.domain.Item;
+import moving.domain.Thing;
+import moving.domain.logic.Packer;
+import tools.DuplicateRemover;
+import tools.PersonalDuplicateRemover;
+
+
 public class Main {
 
    public static void main(String[] args) {
+//Week 9 Yl 21
+//       Printer printer = new Printer("src/textfile.txt");
+//
+//       printer.printLinesWhichContain("jaanus");
+//       System.out.println("-----");
+//       printer.printLinesWhichContain("Ma");
+//       System.out.println("-----");
+//Week 9 Yl 20
+//       Sensor kumpula = new Thermometer();
+//       Sensor kaisaniemi = new Thermometer();
+//       Sensor helsinkiVantaa = new Thermometer();
+//
+//       AverageSensor helsinkiArea = new AverageSensor();
+//       helsinkiArea.addSensor(kumpula);
+//       helsinkiArea.addSensor(kaisaniemi);
+//       helsinkiArea.addSensor(helsinkiVantaa);
+//
+//       helsinkiArea.on();
+//       System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
+//       System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
+//       System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
+//
+//       System.out.println("readings: "+helsinkiArea.readings());
+//WEEK 9 YL18
+//       List<Thing> things = new ArrayList<Thing>();
+//       things.add(new Item("passport", 2));
+//       things.add(new Item("toothbrash", 1));
+//       things.add(new Item("book", 4));
+//       things.add(new Item("circular saw", 8));
+//
+//       // we create a packer which uses boxes whose valume is 10
+//       Packer packer = new Packer(10);
+//
+//       // we ask our packer to pack things into boxes
+//       List<Box> boxes = packer.packThings( things );
+//
+//       System.out.println("number of boxes: "+boxes.size());
+//
+//       for (Box box : boxes) {
+//           System.out.println("  things in the box: "+box.getVolume()+" dm^3");
+//       }
+//       WEEK 9 YL 17
+//       UserInterface ui = new TextUserInterface();
+//       new ApplicationLogic(ui).execute(3);
+
 //       Week 8 Yl15
 //       Card first = new Card(2, Card.DIAMONDS);
 //       Card second = new Card(14, Card.CLUBS);
